@@ -11,7 +11,10 @@ If you set the parameter ```INSTALL_NGINX``` to ```True``` you should also confi
 
 ##### 1. Download the script:
 ```
-sudo wget https://raw.githubusercontent.com/Yenthe666/InstallScript/16.0/odoo_install.sh
+#sudo wget https://raw.githubusercontent.com/Yenthe666/InstallScript/16.0/odoo_install.sh
+
+
+sudo wget https://raw.githubusercontent.com/ShaheenHossain/installScript_01/eagle1631/eagle1631_install.sh
 ```
 ##### 2. Modify the parameters as you wish.
 There are a few things you can configure, this is the most used list:<br/>
@@ -31,12 +34,11 @@ There are a few things you can configure, this is the most used list:<br/>
 
 #### 3. Make the script executable
 ```
-sudo chmod +x odoo_install.sh
-```
-##### 4. Execute the script:
-```
-sudo ./odoo_install.sh
-```
+sudo chmod +x eagle1631_install.sh
+
+sudo ./eagle1631_install.sh
+
+
 
 ## Where should I host Odoo?
 There are plenty of great services that offer good hosting. The script has been tested with a few major players such as [Google Cloud](https://cloud.google.com/), [Hetzner](https://www.hetzner.com/), [Amazon AWS](https://aws.amazon.com/) and [DigitalOcean](https://www.digitalocean.com/products/droplets/).
