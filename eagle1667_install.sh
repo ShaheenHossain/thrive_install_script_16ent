@@ -1,8 +1,8 @@
-OE_USER="eagle1668"
+OE_USER="eagle1667"
 OE_HOME="/$OE_USER"
 OE_HOME_EXT="/$OE_USER/${OE_USER}-server"
 INSTALL_WKHTMLTOPDF="False"
-OE_PORT="8068"
+OE_PORT="8067"
 OE_VERSION="master"
 IS_ENTERPRISE="False"
 # Installs postgreSQL V14 instead of defaults (e.g V12 for Ubuntu 20/22) - this improves performance
@@ -90,7 +90,7 @@ else
 fi
 
 echo -e "\n---- Create Eagle system user ----"
-sudo adduser --system --quiet --shell=/bin/bash --home=$OE_HOME --gecos 'EAGLE1668' --group $OE_USER
+sudo adduser --system --quiet --shell=/bin/bash --home=$OE_HOME --gecos 'EAGLE1667' --group $OE_USER
 #The user should also be added to the sudo'ers group.
 sudo adduser $OE_USER sudo
 
@@ -102,7 +102,7 @@ sudo chown $OE_USER:$OE_USER /var/log/$OE_USER
 # Install Eagle
 #--------------------------------------------------
 echo -e "\n==== Installing Eagle Server ===="
-sudo git clone --depth 1 --branch $OE_VERSION https://github.com/ShaheenHossain/soranzh_infona_16ent $OE_HOME_EXT/
+sudo git clone --depth 1 --branch $OE_VERSION https://github.com/ShaheenHossain/soranzh_infona_16ent_01 $OE_HOME_EXT/
 
 if [ $IS_ENTERPRISE = "True" ]; then
     # Eagle Enterprise install!
