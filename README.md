@@ -8,7 +8,7 @@ This script can be safely used in a multi-thrive code base server because the de
 ##### 1. Download the script:
 
 
-sudo wget https://raw.githubusercontent.com/ShaheenHossain/installScript_01/divinlonji_thrive_ent1668/thrive1668_install.sh
+sudo wget https://raw.githubusercontent.com/ShaheenHossain/thrive_install_script_16ent/divinlonji_thrive_ent1668/thrive1668_install.sh
 
 sudo chmod +x thrive1668_install.sh
 
