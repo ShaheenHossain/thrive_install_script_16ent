@@ -1,8 +1,8 @@
-OE_USER="thrive1668"
+OE_USER="thrive1669"
 OE_HOME="/$OE_USER"
 OE_HOME_EXT="/$OE_USER/${OE_USER}-server"
 INSTALL_WKHTMLTOPDF="False"
-OE_PORT="8068"
+OE_PORT="8069"
 OE_VERSION="main"
 IS_ENTERPRISE="False"
 # Installs postgreSQL V14 instead of defaults (e.g V12 for Ubuntu 20/22) - this improves performance
@@ -15,7 +15,7 @@ OE_CONFIG="${OE_USER}-server"
 WEBSITE_NAME="_"
 LONGPOLLING_PORT="8072"
 ENABLE_SSL="False"
-ADMIN_EMAIL="rapidgrps@gmail.com"
+ADMIN_EMAIL="thrivebureauerp@gmail.com"
 ##
 ###  WKHTMLTOPDF download links
 ## === Ubuntu Trusty x64 & x32 === (for other distributions please replace these two links,
@@ -90,7 +90,7 @@ else
 fi
 
 echo -e "\n---- Create Eagle system user ----"
-sudo adduser --system --quiet --shell=/bin/bash --home=$OE_HOME --gecos 'THRIVE1668' --group $OE_USER
+sudo adduser --system --quiet --shell=/bin/bash --home=$OE_HOME --gecos 'THRIVE1669' --group $OE_USER
 #The user should also be added to the sudo'ers group.
 sudo adduser $OE_USER sudo
 
