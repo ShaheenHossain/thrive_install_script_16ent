@@ -6,11 +6,11 @@ This script can be safely used in a multi-thrive code base server because the de
 
 
 ##### 1. Download the script:
-sudo wget https://raw.githubusercontent.com/ShaheenHossain/thrive_install_script_16ent/divinlonji_thrive_ent1669/thrive1669_install.sh
+sudo wget https://raw.githubusercontent.com/ShaheenHossain/thrive_install_script_16ent/divinlonji_thrive_ent1867/thrive1867_install.sh
 
-sudo chmod +x thrive1669_install.sh
+sudo chmod +x thrive1867_install.sh
 
-sudo ./thrive1669_install.sh
+sudo ./thrive1867_install.sh
 
 
 
